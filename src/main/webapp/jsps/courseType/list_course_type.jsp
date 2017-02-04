@@ -56,7 +56,7 @@
 	        <th>名称</th>
 	        <th>操作</th>
 	       </tr>
-	       <c:forEach var="courseType" items="${requestScope.courseTypeList}" >
+	       <c:forEach var="courseType" items="${list}" >
 	         <tr>
 	          <td nowrap>${courseType.typeId}</td>
 	          <td nowrap>${courseType.typeName}</td>
@@ -66,15 +66,10 @@
 	          </td>
 	         </tr>   
 	       </c:forEach>
-	       <tr>
-              <td> 
-                <c:forEach begin="1" end="${requestScope.typePage.allpage}" var="index" >
-                  <a href="${pageContext.request.contextPath}/courseType/list/${index}">${index}</a>&nbsp;
-                </c:forEach>
-              </td>
-              <td></td>
-              <td>总页数:${typePage.allpage}</td>
-           </tr>   	       
-	    </table>  
+
+	    </table>
+	    <div id="pageinfo">
+		    <td>${pageLinks}</td>
+	    </div>
   </body>
 </html>

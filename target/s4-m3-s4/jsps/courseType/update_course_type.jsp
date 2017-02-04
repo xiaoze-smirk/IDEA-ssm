@@ -36,7 +36,7 @@
          <form:input path="typeName"/>
        </div>             
        <div>
-         <input type="submit" value=" 登 录 "/> 
+         <input type="submit" value=" 确定 "/>
        </div>              
     </form:form>
   </body>

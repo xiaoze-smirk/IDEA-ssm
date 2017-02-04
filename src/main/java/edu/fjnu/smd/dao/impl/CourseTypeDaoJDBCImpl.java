@@ -4,6 +4,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import javax.annotation.Resource;
+
+import edu.fjnu.smd.page.Page;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.stereotype.Repository;
@@ -67,13 +69,9 @@ public class CourseTypeDaoJDBCImpl extends SqlSessionDaoSupport implements Cours
     }
 
     @Override
-    public List<CourseType> loadPage(int pageindex, int rows) {
+    public List<CourseType> loadPage(Page<CourseType> page) {
 
-        Map<String,Object> map = new HashMap<String,Object>();		//参数
-        map.put("startIdx", (pageindex-1)*rows);
-        map.put("endIdx", pageindex*rows);
-
-        List<CourseType> list = getmapper().loadPage(map);
+        List<CourseType> list = getmapper().loadPage(page);
 
         return list;
 

@@ -1,6 +1,8 @@
 package edu.fjnu.smd.service.impl;
 
 import java.util.List;
+
+import edu.fjnu.smd.page.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -71,10 +73,10 @@ public class CourseTypeServiceJDBCImpl implements CourseTypeService {
     }
 
     @Override
-    public List<CourseType> loadPage(int pageindex, int rows) {
+    public List<CourseType> loadPage(Page<CourseType> page) {
 
 
-        return courseTypeDao.loadPage(pageindex, rows);
+        return courseTypeDao.loadPage(page);
 
     }
 

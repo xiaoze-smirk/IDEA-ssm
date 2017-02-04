@@ -2,6 +2,7 @@ package edu.fjnu.smd.service;
 
 import java.util.List;
 import edu.fjnu.smd.domain.CourseType;
+import edu.fjnu.smd.page.Page;
 
 /**
  * Created by xiaozemaliya on 2017/1/31.
@@ -12,7 +13,7 @@ public interface CourseTypeService {
 
     List<CourseType> loadAll();
 
-    List<CourseType> loadPage(int pageindex,int rows);
+    List<CourseType> loadPage(Page<CourseType> page);
 
     CourseType getCourseTypeById(Integer typeId);
 

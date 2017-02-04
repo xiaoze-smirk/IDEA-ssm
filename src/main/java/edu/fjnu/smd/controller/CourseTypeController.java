@@ -3,6 +3,7 @@ package edu.fjnu.smd.controller;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import edu.fjnu.smd.domain.CourseType;
 import edu.fjnu.smd.service.CourseTypeService;
-import edu.fjnu.smd.utils.TypePage;
+import edu.fjnu.smd.page.Page;
 
 /**
  * Created by xiaozemaliya on 2017/1/31.
@@ -61,26 +62,12 @@ public class CourseTypeController extends BaseController {
     }
 
     @RequestMapping("/list")
-    public String list(Map<String, Object> map,TypePage typePage ) throws Exception{
+    public String list(Map<String, Object> map, Model model, Page<CourseType> page ) throws Exception{
 
-        typePage.setAllpage(courseTypeService.getpages(typePage.getRows()));
+        page.setParams(map);
 
-        map.put("courseTypeList", courseTypeService.loadPage(typePage.getPageindex(), typePage.getRows()));
-        map.put("typePage", typePage);
-
-        return "courseType/list_course_type";
-    }
-
-    @RequestMapping("/list/{index}")
-    public String list(@PathVariable("index") Integer idx,Map<String, Object> map,TypePage typePage ) throws Exception{
-
-        if(idx!=null)
-            typePage.setPageindex(idx);
-
-        typePage.setAllpage(courseTypeService.getpages(typePage.getRows()));
-
-        map.put("courseTypeList", courseTypeService.loadPage(typePage.getPageindex(), typePage.getRows()));
-        map.put("typePage", typePage);
+        model.addAttribute("list", courseTypeService.loadPage(page));
+        model.addAttribute("pageLinks", page.pageLinks("list"));
 
         return "courseType/list_course_type";
     }

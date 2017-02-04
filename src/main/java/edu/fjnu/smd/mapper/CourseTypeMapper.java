@@ -3,6 +3,7 @@ package edu.fjnu.smd.mapper;
 import java.util.List;
 import java.util.Map;
 import edu.fjnu.smd.domain.CourseType;
+import edu.fjnu.smd.page.Page;
 
 /**
  * Created by xiaozemaliya on 2017/1/31.
@@ -19,7 +20,7 @@ public interface CourseTypeMapper {
 
     List<CourseType> loadAll();
 
-    List<CourseType> loadPage(Map map);
+    List<CourseType> loadPage(Page<CourseType> page);
 
     int getpages();
 

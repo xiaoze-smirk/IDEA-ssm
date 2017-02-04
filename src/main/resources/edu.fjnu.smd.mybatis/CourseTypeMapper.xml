@@ -63,11 +63,8 @@
     </select>
 
     <!-- 带分页查询，注意Mybatis中如果有填写集合类型，只填写集合中元素的类型  -->
-    <select id="loadPage" parameterType="map" resultMap="courseTypeRM">
-        select * from (
-        select a.* , rownum rn from (
+    <select id="loadPage" resultMap="courseTypeRM">
         select * from tbl_course_type
         order by type_id
-        ) a where rownum <![CDATA[ <= ]]> #{endIdx} ) where rn > #{startIdx}
     </select>
 </mapper>

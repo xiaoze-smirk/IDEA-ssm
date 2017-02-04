@@ -37,7 +37,7 @@
 	   }
 	   
 	   function updateCourse(courseNo){
-	        location.href="${pageContext.request.contextPath}/course/preUpdate/"+courseNo;
+		   location.href ="${pageContext.request.contextPath}/course/preUpdate/"+courseNo;
 	   }
 	   
 	   function $(id){
@@ -50,7 +50,7 @@
            
            if(!re.test(pageno))
            {
-              alert("输入的不是数字!")
+              alert("输入的不是数字!");
               return;
            }
            
