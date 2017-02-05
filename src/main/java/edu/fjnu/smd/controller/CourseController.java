@@ -21,7 +21,7 @@ import edu.fjnu.smd.exception.DataAccessException;
 import edu.fjnu.smd.service.CourseService;
 import edu.fjnu.smd.service.CourseTypeService;
 import edu.fjnu.smd.utils.CourseQueryHelper;
-import edu.fjnu.smd.utils.Page;
+import edu.fjnu.smd.page.CoursePage;
 
 /**
  * Created by xiaozemaliya on 2017/1/31.
@@ -93,29 +93,29 @@ public class CourseController extends BaseController {
 
 
     @RequestMapping("/list")
-    public String list(Map<String, Object> map,Page page, CourseQueryHelper helper) throws Exception{
+    public String list(Map<String, Object> map, CoursePage coursePage, CourseQueryHelper helper) throws Exception{
 
-        page.setTotalRecNum((long)courseService.cntCoursesByHelper(helper));
-        page.setPageContent(courseService.loadScopedCourses(helper, page.getStartIndex(), page.getEndIndex()-page.getStartIndex()+1));
+        coursePage.setTotalRecNum((long)courseService.cntCoursesByHelper(helper));
+        coursePage.setPageContent(courseService.loadScopedCourses(helper, coursePage.getStartIndex(), coursePage.getEndIndex()-coursePage.getStartIndex()+1));
 
         map.put("courseTypeList", courseTypeService.loadAll());
-        map.put("page", page);
+        map.put("page", coursePage);
         map.put("helper", helper);
         return "course/list_course";
 
     }
 
     @RequestMapping("/list/{pageNo}")
-    public String list(@PathVariable("pageNo") Integer pageNo,Map<String, Object> map,Page page,CourseQueryHelper helper) throws Exception{
+    public String list(@PathVariable("pageNo") Integer pageNo, Map<String, Object> map, CoursePage coursePage, CourseQueryHelper helper) throws Exception{
 
         if(pageNo!=null)
-            page.setPageNo(pageNo);
+            coursePage.setPageNo(pageNo);
 
-        page.setTotalRecNum((long)courseService.cntCoursesByHelper(helper));
-        page.setPageContent(courseService.loadScopedCourses(helper, page.getStartIndex(), page.getEndIndex()-page.getStartIndex()+1));
+        coursePage.setTotalRecNum((long)courseService.cntCoursesByHelper(helper));
+        coursePage.setPageContent(courseService.loadScopedCourses(helper, coursePage.getStartIndex(), coursePage.getEndIndex()-coursePage.getStartIndex()+1));
 
         map.put("courseTypeList", courseTypeService.loadAll());
-        map.put("page", page);
+        map.put("page", coursePage);
         map.put("helper", helper);
 
         return "course/list_course";

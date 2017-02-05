@@ -1,9 +1,7 @@
 edu\fjnu\smd\service\CourseTypeService.class
-edu\fjnu\smd\utils\TypePage.class
 edu\fjnu\smd\dao\impl\CourseDaoJDBCImpl.class
 edu\fjnu\smd\controller\BaseController.class
 edu\fjnu\smd\service\impl\UserServiceJDBCImpl.class
-edu\fjnu\smd\utils\Page.class
 edu\fjnu\smd\domain\ValueObject.class
 edu\fjnu\smd\interceptor\AuthenticationInterceptor.class
 edu\fjnu\smd\mapper\CourseMapper.class

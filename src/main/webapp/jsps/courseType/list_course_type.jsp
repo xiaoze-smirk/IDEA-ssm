@@ -42,7 +42,7 @@
           location.href="${pageContext.request.contextPath}/courseType/preUpdate/"+typeId;
 
 	   }
-	 
+
 	</script>
 	
   </head>
@@ -62,14 +62,16 @@
 	          <td nowrap>${courseType.typeName}</td>
 	          <td nowrap>
 	          	  <button onclick="updateCourseType(${courseType.typeId})">修改</button>
-	          	  <button onclick="removeCourseType(${courseType.typeId},'${courseType.typeName}')">删除</button>
+	          	  <button  onclick="removeCourseType(${courseType.typeId},'${courseType.typeName}')">删除</button>
 	          </td>
 	         </tr>   
 	       </c:forEach>
 
 	    </table>
 	    <div id="pageinfo">
-		    <td>${pageLinks}</td>
+		    ${pageLinks}
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 	    </div>
   </body>
 </html>

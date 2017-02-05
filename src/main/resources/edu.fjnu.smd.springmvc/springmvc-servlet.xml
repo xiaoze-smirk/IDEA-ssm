@@ -54,6 +54,13 @@
     </bean>
 
     <mvc:interceptors>
+
+        <!-- 配置拦截器(不)作用的路径
+        <mvc:interceptor>
+            <mvc:mapping path="/*"/>
+            <bean class="edu.fjnu.smd.interceptor.AuthenticationInterceptor"></bean>
+        </mvc:interceptor>
+         -->
         <!-- 配置 LocaleChanceInterceptor(通过超链接配置国际语言) -->
         <bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor"></bean>
     </mvc:interceptors>

@@ -26,16 +26,39 @@
     <!-- 导入资源文件 -->
     <context:property-placeholder location="classpath:edu.fjnu.smd.spring/db.properties"/>
 
-    <!-- 配置 C3P0 数据源 -->
-    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
-        <property name="user" value="${jdbc.user}"></property>
-        <property name="password" value="${jdbc.password}"></property>
-        <property name="driverClass" value="${jdbc.driverClass}"></property>
-        <property name="jdbcUrl" value="${jdbc.jdbcUrl}"></property>
+    <!-- 配置druid数据源 -->
+    <bean name="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
+        <property name="username" value="${jdbc_username}" />
+        <property name="password" value="${jdbc_password}" />
+        <property name="url" value="${jdbc_url}" />
 
-        <property name="initialPoolSize" value="${jdbc.initPoolSize}"></property>
-        <property name="maxPoolSize" value="${jdbc.maxPoolSize}"></property>
+        <!-- 初始化连接大小 -->
+        <property name="initialSize" value="${jdbc_initialSize}" />
+        <!-- 连接池最大使用连接数量 -->
+        <property name="maxActive" value="${jdbc_maxActive}" />
+        <!-- 连接池最小空闲 -->
+        <property name="minIdle" value="${jdbc_minIdle}" />
+        <!-- 获取连接最大等待时间 -->
+        <property name="maxWait" value="${jdbc_maxWait}" />
 
+        <!-- <property name="poolPreparedStatements" value="true" /> <property name="maxPoolPreparedStatementPerConnectionSize" value="33" /> -->
+
+        <property name="validationQuery" value="${jdbc_validationQuery}" />
+        <property name="testOnBorrow" value="${jdbc_testOnBorrow}" />
+        <property name="testOnReturn" value="${jdbc_testOnReturn}" />
+        <property name="testWhileIdle" value="${jdbc_testWhileIdle}" />
+
+        <!-- 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒 -->
+        <property name="timeBetweenEvictionRunsMillis" value="${jdbc_timeBetweenEvictionRunsMillis}" />
+        <!-- 配置一个连接在池中最小生存的时间，单位是毫秒 -->
+        <property name="minEvictableIdleTimeMillis" value="${jdbc_minEvictableIdleTimeMillis}" />
+
+        <!-- 打开PSCache，并且指定每个连接上PSCache的大小 -->
+        <property name="poolPreparedStatements" value="${jdbc_poolPreparedStatements}" />
+        <property name="maxPoolPreparedStatementPerConnectionSize" value="${jdbc_maxPoolPreparedStatementPerConnectionSize}" />
+
+        <!-- 配置监控统计拦截的filters，去掉后监控界面sql无法统计 -->
+        <property name="filters" value="${jdbc_filters}" />
     </bean>
 
     <!-- 配置 sqlSessionFactory -->

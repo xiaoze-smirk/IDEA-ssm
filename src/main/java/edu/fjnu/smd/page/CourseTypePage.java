@@ -1,16 +1,16 @@
-package edu.fjnu.smd.utils;
+package edu.fjnu.smd.page;
 
 /**
  * Created by xiaozemaliya on 2017/1/31.
  */
-public class TypePage {
+public class CourseTypePage {
     private int allpage;
     private int pageindex;
     private int rows;
 
 
 
-    public TypePage() {
+    public CourseTypePage() {
 
         this.allpage = 0;
         this.pageindex = 1;

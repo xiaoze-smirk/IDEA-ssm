@@ -2,34 +2,95 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c69a8de-4433-4e79-be46-2d14cdd568b2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/db.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/maven.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/utils/Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/utils/TypePage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/utils/Page.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/utils/TypePage.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/config/VersionInfo.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/config/VersionInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/controller/BaseController.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/controller/BaseController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/controller/CourseController.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/controller/CourseController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/controller/CourseTypeController.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/controller/CourseTypeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/controller/SecurityController.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/controller/SecurityController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/dao/CourseDao.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/dao/CourseDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/dao/CourseTypeDao.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/dao/CourseTypeDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/dao/impl/CourseDaoJDBCImpl.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/dao/impl/CourseDaoJDBCImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/dao/impl/CourseTypeDaoJDBCImpl.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/dao/impl/CourseTypeDaoJDBCImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/dao/impl/UserDaoJDBCImpl.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/dao/impl/UserDaoJDBCImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/domain/Course.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/domain/Course.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/domain/CourseType.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/domain/CourseType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/domain/User.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/domain/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/domain/ValueObject.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/domain/ValueObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/exception/DataAccessException.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/exception/DataAccessException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/exception/SMDException.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/exception/SMDException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/interceptor/AuthenticationInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/interceptor/AuthenticationInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/interceptor/PageInterceptor$ReflectUtil.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/interceptor/PageInterceptor$ReflectUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/interceptor/PageInterceptor.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/interceptor/PageInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/mapper/CourseMapper.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/mapper/CourseMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/mapper/CourseTypeMapper.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/mapper/CourseTypeMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/mapper/UserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/page/Page.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/page/Page.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/service/CourseService.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/service/CourseService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/service/CourseTypeService.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/service/CourseTypeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/service/impl/CourseServiceJDBCImpl.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/service/impl/CourseServiceJDBCImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/service/impl/CourseTypeServiceJDBCImpl.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/service/impl/CourseTypeServiceJDBCImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/service/impl/UserServiceJDBCImpl.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/service/impl/UserServiceJDBCImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/utils/CourseQueryHelper.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/utils/CourseQueryHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/config/VersionInfo.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/config/VersionInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/controller/BaseController.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/controller/BaseController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/controller/CourseController.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/controller/CourseController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/controller/CourseTypeController.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/controller/CourseTypeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/controller/SecurityController.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/controller/SecurityController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/dao/CourseDao.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/dao/CourseDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/dao/CourseTypeDao.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/dao/CourseTypeDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/dao/UserDao.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/dao/UserDao.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/dao/impl/CourseDaoJDBCImpl.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/dao/impl/CourseDaoJDBCImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/dao/impl/CourseTypeDaoJDBCImpl.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/dao/impl/CourseTypeDaoJDBCImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/dao/impl/UserDaoJDBCImpl.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/dao/impl/UserDaoJDBCImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/domain/Course.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/domain/Course.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/domain/CourseType.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/domain/CourseType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/domain/User.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/domain/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/domain/ValueObject.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/domain/ValueObject.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/exception/DataAccessException.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/exception/DataAccessException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/exception/SMDException.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/exception/SMDException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/interceptor/AuthenticationInterceptor.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/interceptor/AuthenticationInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/interceptor/PageInterceptor$ReflectUtil.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/interceptor/PageInterceptor$ReflectUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/interceptor/PageInterceptor.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/interceptor/PageInterceptor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/mapper/CourseMapper.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/mapper/CourseMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/mapper/CourseTypeMapper.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/mapper/CourseTypeMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/mapper/UserMapper.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/mapper/UserMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/page/Page.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/page/Page.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/service/CourseService.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/service/CourseService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/service/CourseTypeService.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/service/CourseTypeService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/service/UserService.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/service/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/service/impl/CourseServiceJDBCImpl.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/service/impl/CourseServiceJDBCImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/service/impl/CourseTypeServiceJDBCImpl.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/service/impl/CourseTypeServiceJDBCImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/service/impl/UserServiceJDBCImpl.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/service/impl/UserServiceJDBCImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/utils/CourseQueryHelper.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/utils/CourseQueryHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/s4_m3_s4_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/s4_m3_s4_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/s4-m3-s4.iml" afterPath="$PROJECT_DIR$/s4-m3-s4.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/controller/CourseTypeController.java" afterPath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/controller/CourseTypeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/dao/CourseTypeDao.java" afterPath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/dao/CourseTypeDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/dao/impl/CourseTypeDaoJDBCImpl.java" afterPath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/dao/impl/CourseTypeDaoJDBCImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/mapper/CourseTypeMapper.java" afterPath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/mapper/CourseTypeMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/service/CourseTypeService.java" afterPath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/service/CourseTypeService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/service/impl/CourseTypeServiceJDBCImpl.java" afterPath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/service/impl/CourseTypeServiceJDBCImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseTypeMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseTypeMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/controller/CourseController.java" afterPath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/controller/CourseController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/interceptor/AuthenticationInterceptor.java" afterPath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/interceptor/AuthenticationInterceptor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsps/course/list_course.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/course/list_course.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/db.properties" afterPath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.springmvc/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.springmvc/springmvc-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsps/courseType/list_course_type.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/courseType/list_course_type.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsps/courseType/update_course_type.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/courseType/update_course_type.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.mybatis/CourseTypeMapper.xml" afterPath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.mybatis/CourseTypeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.spring/applicationContext.xml" afterPath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.spring/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.mybatis/CourseTypeMapper.xml" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.mybatis/CourseTypeMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.spring/applicationContext.xml" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.spring/db.properties" afterPath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.spring/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.springmvc/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.springmvc/springmvc-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-cli/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.spring/db.properties" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.spring/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.springmvc/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.springmvc/springmvc-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/jsps/courseType/list_course_type.jsp" afterPath="$PROJECT_DIR$/target/s4-m3-s4/jsps/courseType/list_course_type.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/utils/Page.java" afterPath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/CoursePage.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/utils/TypePage.java" afterPath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/CourseTypePage.java" />
     </list>
     <ignored path="s4-m3-s4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,12 +107,83 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="s4-m3-s4" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="list_course_type.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/courseType/list_course_type.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthenticationInterceptor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/interceptor/AuthenticationInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springmvc-servlet.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.springmvc/springmvc-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="84" column="81" selection-start-line="84" selection-start-column="81" selection-end-line="84" selection-end-column="81" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-897">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-339">
+              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -74,14 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/dao/CourseDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/dao/impl/CourseDaoJDBCImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/domain/Course.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/domain/CourseType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/exception/DataAccessException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/exception/SMDException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/interceptor/AuthenticationInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/mapper/CourseMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/service.java" />
@@ -101,17 +225,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseMapper" />
         <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/UserMapper" />
         <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseTypeMapper" />
-        <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.springmvc/springmvc-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/i18n.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/i18n_en_US.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/i18n_zh_CN.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/domain/ValueObject.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/sqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/interceptor/PageInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/dao/CourseTypeDao.java" />
@@ -122,9 +242,21 @@
         <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseTypeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsps/courseType/update_course_type.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsps/course/list_course.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsps/courseType/list_course_type.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/controller/CourseTypeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/TypePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/CourseTypePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/CoursePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsps/courseType/list_course_type.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/interceptor/AuthenticationInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.springmvc/springmvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/doc/db.sql" />
+        <option value="$PROJECT_DIR$/doc/maven.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/db.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -183,9 +315,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,67 +378,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="jsps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="courseType" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="course" />
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,6 +419,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s4-m3-s4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s4-m3-s4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu.fjnu.smd.spring" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,264 +474,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mapper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interceptor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dao" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="s4-m3-s4" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -649,6 +491,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\doc" />
       <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\webapp" />
       <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\resources\edu.fjnu.smd.mybatis" />
       <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\java\edu\fjnu\smd\mapper" />
@@ -1256,37 +1099,42 @@
       <workItem from="1486172524882" duration="255000" />
       <workItem from="1486172798685" duration="259000" />
       <workItem from="1486173439162" duration="8638000" />
-      <workItem from="1486186618652" duration="10100000" />
+      <workItem from="1486186618652" duration="10343000" />
+      <workItem from="1486197556107" duration="1487000" />
+      <workItem from="1486206786954" duration="6146000" />
+      <workItem from="1486222657155" duration="2449000" />
+      <workItem from="1486255589845" duration="2298000" />
+      <workItem from="1486259027045" duration="2715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43317000" />
+    <option name="totallyTimeSpent" value="58655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5204856" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5204236" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32786885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4704918" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37704918" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1357,45 +1205,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/utils/CourseQueryHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/7.0/javaee-api-7.0.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.5.RELEASE/spring-web-4.3.5.RELEASE.jar!/org/springframework/web/bind/annotation/RequestMapping.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_111/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.5.RELEASE/spring-webmvc-4.3.5.RELEASE.jar!/org/springframework/web/servlet/HandlerInterceptor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="12" column="96" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/interceptor/AuthenticationInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1495,25 +1308,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.0/mybatis-spring-1.3.0.jar!/org/mybatis/spring/support/SqlSessionDaoSupport.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-16">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1528,15 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
           <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.springmvc/springmvc-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="47" column="58" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1551,7 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1559,52 +1347,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/interceptor/PageInterceptor" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/controller/CourseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#692#693#0" expanded="false" />
-            <element signature="e#728#729#0" expanded="false" />
-            <element signature="e#763#764#0" expanded="false" />
-            <element signature="e#794#795#0" expanded="false" />
-            <element signature="e#842#843#0" expanded="false" />
-            <element signature="e#882#883#0" expanded="false" />
-            <element signature="e#916#917#0" expanded="false" />
-            <element signature="e#946#947#0" expanded="false" />
-            <element signature="e#992#993#0" expanded="false" />
-            <element signature="e#1030#1031#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1619,7 +1369,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-132">
           <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1627,7 +1376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1635,7 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1643,18 +1390,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="141" column="55" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="55" />
-          <folding>
-            <marker date="1485862961314" expanded="true" signature="1615:1864" ph="insert into tbl_course... " />
-            <marker date="1485862961314" expanded="true" signature="1968:2028" ph="delete from " />
-            <marker date="1485862961314" expanded="true" signature="2137:2193" ph="delete from " />
-            <marker date="1485862961314" expanded="true" signature="2308:3007" ph="update tbl_c... " />
-            <marker date="1485862961314" expanded="true" signature="3172:3471" ph="select p.cou... tbl_course" />
-            <marker date="1485862961314" expanded="true" signature="3596:3661" ph="select cours... tbl_course" />
-            <marker date="1485862961314" expanded="true" signature="3789:4049" ph="select p.cou... tbl_course" />
-            <marker date="1485862961314" expanded="true" signature="5552:6227" ph="select * fro... *" />
-            <marker date="1485862961314" expanded="true" signature="5576:6202" ph="select a.* ,... *" />
-            <marker date="1485862961314" expanded="true" signature="5614:6150" ph="select * fro... tbl_course" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1662,7 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="30" column="42" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1670,7 +1404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1678,7 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="78" column="38" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1686,23 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseTypeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-          <folding>
-            <marker date="1486190129118" expanded="true" signature="800:914" ph="insert into tbl_course_type... " />
-            <marker date="1486190129118" expanded="true" signature="1012:1073" ph="delete from " />
-            <marker date="1486190129118" expanded="true" signature="1196:1347" ph="update tbl_c... " />
-            <marker date="1486190129118" expanded="true" signature="1739:1768" ph="select * fro... tbl_course_type" />
-            <marker date="1486190129118" expanded="true" signature="1856:1898" ph="select count... tbl_course_type" />
-            <marker date="1486190129118" expanded="true" signature="2017:2080" ph="select * fro... *" />
-            <marker date="1486190129118" expanded="true" signature="2026:2080" ph="select * fro... tbl_course_type" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1710,7 +1425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1718,9 +1432,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1728,15 +1439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="138" column="26" selection-start-line="138" selection-start-column="13" selection-end-line="138" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/courseType/list_course_type.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1744,19 +1446,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1656">
           <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="97" column="93" selection-start-line="97" selection-start-column="93" selection-end-line="97" selection-end-column="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1764,6 +1453,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="71" column="58" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/CoursePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/CourseTypePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1679">
+          <caret line="97" column="93" selection-start-line="97" selection-start-column="93" selection-end-line="97" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="114" column="18" selection-start-line="114" selection-start-column="18" selection-end-line="114" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/courseType/list_course_type.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="50" column="33" selection-start-line="50" selection-start-column="33" selection-end-line="50" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/interceptor/AuthenticationInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/maven.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5451">
+          <caret line="237" column="0" selection-start-line="237" selection-start-column="0" selection-end-line="242" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3128">
+          <caret line="136" column="0" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.springmvc/springmvc-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-339">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-897">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="84" column="81" selection-start-line="84" selection-start-column="81" selection-end-line="84" selection-end-column="81" />
           <folding />
         </state>
       </provider>

@@ -1,11 +1,11 @@
-package edu.fjnu.smd.utils;
+package edu.fjnu.smd.page;
 
 import java.util.Collection;
 
 /**
  * Created by xiaozemaliya on 2017/1/31.
  */
-public class Page {
+public class CoursePage {
 
     private Integer pageNo;    //当前页号          *
     private Integer pageSize;  //每页记录条数  *
@@ -17,7 +17,7 @@ public class Page {
     private Integer startIndex; //记录开始位置
     private Integer endIndex;   //记录结束位置
 
-    public Page() {
+    public CoursePage() {
         super();
         pageNo=1;
         pageSize=3;

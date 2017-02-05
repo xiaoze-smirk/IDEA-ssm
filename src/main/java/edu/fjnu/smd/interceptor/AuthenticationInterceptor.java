@@ -24,7 +24,7 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
         if (requestUri.endsWith("/index.jsp")) {
             arg1.sendRedirect("/index.jsp");
-
+            System.out.println("可以了可以了可以了可以了可以了");
             return true;
         }
 
