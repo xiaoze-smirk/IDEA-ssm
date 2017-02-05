@@ -82,7 +82,7 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
-    <!-- filter可以监控webURl 访问 -->
+    <!-- filter可以监控webURl 访问 ,本项目是http://localhost:8080/smd2/druid/index.html查看监控-->
     <servlet>
         <servlet-name>DruidStatView</servlet-name>
         <servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>

@@ -53,11 +53,18 @@
       <version>3.1</version>
     </dependency>
 
-    <!-- c3p0 -->
+    <!-- mybatis-ehcache -->
     <dependency>
-      <groupId>com.mchange</groupId>
-      <artifactId>c3p0</artifactId>
-      <version>0.9.5.2</version>
+      <groupId>org.mybatis.caches</groupId>
+      <artifactId>mybatis-ehcache</artifactId>
+      <version>1.1.0</version>
+    </dependency>
+
+    <!-- ehcache-core -->
+    <dependency>
+      <groupId>net.sf.ehcache</groupId>
+      <artifactId>ehcache-core</artifactId>
+      <version>2.6.11</version>
     </dependency>
 
     <!-- log4j-slf4j-impl -->

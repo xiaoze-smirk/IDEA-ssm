@@ -5,10 +5,6 @@
 <!-- 配置命名空间，区别名称 -->
 <mapper namespace="edu.fjnu.smd.mapper.CourseTypeMapper">
 
-    <!-- 使用二级缓存
-	<cache type="org.mybatis.caches.ehcache.EhcacheCache"/>
-    -->
-
     <!-- SQL片段 -->
     <sql id="cols">type_id,type_name</sql>
 

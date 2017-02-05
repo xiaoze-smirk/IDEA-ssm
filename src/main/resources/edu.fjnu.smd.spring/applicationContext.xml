@@ -43,6 +43,7 @@
 
         <!-- <property name="poolPreparedStatements" value="true" /> <property name="maxPoolPreparedStatementPerConnectionSize" value="33" /> -->
 
+        <!-- 验证连接有效与否的SQL，不同的数据配置不同 -->
         <property name="validationQuery" value="${jdbc_validationQuery}" />
         <property name="testOnBorrow" value="${jdbc_testOnBorrow}" />
         <property name="testOnReturn" value="${jdbc_testOnReturn}" />

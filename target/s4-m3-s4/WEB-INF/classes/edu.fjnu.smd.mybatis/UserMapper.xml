@@ -6,6 +6,7 @@
 <!-- 配置命名空间，区别名称 -->
 <mapper namespace="edu.fjnu.smd.mapper.UserMapper">
 
+
     <!-- SQL片段 -->
     <sql id="cols">user_no,user_pwd,user_name</sql>
 
