@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c69a8de-4433-4e79-be46-2d14cdd568b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/page/Page.class" afterPath="$PROJECT_DIR$/target/classes/edu/fjnu/smd/page/Page.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/page/Page.class" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu/fjnu/smd/page/Page.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/maven.xml" afterPath="$PROJECT_DIR$/doc/maven.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/Page.java" afterPath="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/Page.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/ehcache.xml" afterPath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/ehcache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/ehcache.xsd" afterPath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/ehcache.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.springmvc/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.springmvc/springmvc-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsps/course/list_course.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/course/list_course.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/jsps/courseType/list_course_type.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/jsps/courseType/list_course_type.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.mybatis/ehcache.xml" afterPath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.mybatis/ehcache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.mybatis/ehcache.xsd" afterPath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.mybatis/ehcache.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.springmvc/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/target/classes/edu.fjnu.smd.springmvc/springmvc-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.mybatis/ehcache.xml" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.mybatis/ehcache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.mybatis/ehcache.xsd" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.mybatis/ehcache.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.springmvc/springmvc-servlet.xml" afterPath="$PROJECT_DIR$/target/s4-m3-s4/WEB-INF/classes/edu.fjnu.smd.springmvc/springmvc-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/jsps/course/list_course.jsp" afterPath="$PROJECT_DIR$/target/s4-m3-s4/jsps/course/list_course.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/s4-m3-s4/jsps/courseType/list_course_type.jsp" afterPath="$PROJECT_DIR$/target/s4-m3-s4/jsps/courseType/list_course_type.jsp" />
     </list>
     <ignored path="s4-m3-s4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,21 +36,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="list_course.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/course/list_course.jsp">
+      <file leaf-file-name="sqlMapConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/sqlMapConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+            <state relative-caret-position="207">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_course_type.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/courseType/list_course_type.jsp">
+      <file leaf-file-name="CourseTypeMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseTypeMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-902">
-              <caret line="32" column="83" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="83" />
+            <state relative-caret-position="23">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourseMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+              <folding>
+                <marker date="1486267912163" expanded="true" signature="1695:1944" ph="insert into tbl_course... " />
+                <marker date="1486267912163" expanded="true" signature="2048:2108" ph="delete from " />
+                <marker date="1486267912163" expanded="true" signature="2217:2273" ph="delete from " />
+                <marker date="1486267912163" expanded="true" signature="2388:3087" ph="update tbl_c... " />
+                <marker date="1486267912163" expanded="true" signature="3252:3551" ph="select p.cou... tbl_course" />
+                <marker date="1486267912163" expanded="true" signature="3676:3741" ph="select cours... tbl_course" />
+                <marker date="1486267912163" expanded="true" signature="3869:4129" ph="select p.cou... tbl_course" />
+                <marker date="1486267912163" expanded="true" signature="5632:6307" ph="select * fro... *" />
+                <marker date="1486267912163" expanded="true" signature="5656:6282" ph="select a.* ,... *" />
+                <marker date="1486267912163" expanded="true" signature="5694:6230" ph="select * fro... tbl_course" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ehcache.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/ehcache.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -140,10 +157,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.springmvc/springmvc-servlet.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsps/courseType/list_course_type.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/page/Page.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/ehcache.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsps/course/list_course.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsps/course/update_course.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/edu/fjnu/smd/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/ehcache.xml" />
       </list>
     </option>
   </component>
@@ -202,7 +219,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -221,10 +239,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s4-m3-s4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s4-m3-s4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s4-m3-s4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s4-m3-s4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s4-m3-s4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="s4-m3-s4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edu.fjnu.smd.mybatis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -862,15 +945,16 @@
       <workItem from="1486368718761" duration="11568000" />
       <workItem from="1486381810760" duration="16238000" />
       <workItem from="1486424337725" duration="2892000" />
-      <workItem from="1486427298629" duration="6309000" />
+      <workItem from="1486427298629" duration="6634000" />
+      <workItem from="1486449054139" duration="804000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107630000" />
+    <option name="totallyTimeSpent" value="108759000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -891,11 +975,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35737705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47704917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1098,27 +1182,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/sqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseTypeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java/jdk1.8.0_111/src.zip!/java/net/DualStackPlainSocketImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -1190,13 +1253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/ehcache.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.spring/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-368">
@@ -1249,7 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-207">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1268,18 +1323,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/fjnu/smd/dao/impl/CourseTypeDaoJDBCImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-152">
           <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1287,7 +1334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,7 +1349,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="31" column="56" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,8 +1378,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsps/courseType/list_course_type.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-902">
+        <state relative-caret-position="23">
           <caret line="32" column="83" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/sqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/CourseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <folding>
+            <marker date="1486267912163" expanded="true" signature="1695:1944" ph="insert into tbl_course... " />
+            <marker date="1486267912163" expanded="true" signature="2048:2108" ph="delete from " />
+            <marker date="1486267912163" expanded="true" signature="2217:2273" ph="delete from " />
+            <marker date="1486267912163" expanded="true" signature="2388:3087" ph="update tbl_c... " />
+            <marker date="1486267912163" expanded="true" signature="3252:3551" ph="select p.cou... tbl_course" />
+            <marker date="1486267912163" expanded="true" signature="3676:3741" ph="select cours... tbl_course" />
+            <marker date="1486267912163" expanded="true" signature="3869:4129" ph="select p.cou... tbl_course" />
+            <marker date="1486267912163" expanded="true" signature="5632:6307" ph="select * fro... *" />
+            <marker date="1486267912163" expanded="true" signature="5656:6282" ph="select a.* ,... *" />
+            <marker date="1486267912163" expanded="true" signature="5694:6230" ph="select * fro... tbl_course" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/ehcache.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8504">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/edu.fjnu.smd.mybatis/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
           <folding />
         </state>
       </provider>
