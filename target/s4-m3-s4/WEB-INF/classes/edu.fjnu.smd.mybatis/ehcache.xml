@@ -1,7 +1,9 @@
 <ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:noNamespaceSchemaLocation="ehcache.xsd">
+         xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="true"
+         monitoring="autodetect" dynamicConfig="true">
 
-    <diskStore path="java.io.tmpdir"/>
+    <!--  diskStore ：指定数据存储位置，可指定磁盘中的文件夹位置（要有具体文件夹） -->
+    <diskStore path="E:\IDEA\cache"/>
 
     <defaultCache
             maxElementsInMemory="10000"

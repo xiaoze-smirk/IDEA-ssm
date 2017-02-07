@@ -11,67 +11,82 @@
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
 	<link rel="stylesheet" type="text/css" href="<c:url value="/css/style.css"/>">
-	
+    <script type="text/javascript" src="${pageContext.request.contextPath}/scripts/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript">
-	   
-	   function removeCourse(courseNo,courseName){
-	      
-	      if(confirm("确定要删除 ["+courseName+"] 课程信息吗?")){
-	          
-	   	      var formObject = document.createElement('form');   
-	   	      document.body.appendChild(formObject);   
-	   	      formObject.setAttribute('method', 'post');   
-	   	      var url = "${pageContext.request.contextPath}/course/remove/"+courseNo;
-	   	      formObject.action = url; 
-	   	                     
-	   	      var inputObject = document.createElement('input');   
-	   	      inputObject.setAttribute('type', 'hidden');   
-	   	      inputObject.setAttribute('name', '_method');   
-	   	      inputObject.setAttribute('value', 'delete');   
-	   	      formObject.appendChild(inputObject);  
-	   	      
-	   	      formObject.submit();   
-              return false;
-	      }
-	      
-	   }
-	   
-	   function updateCourse(courseNo){
-		   location.href ="${pageContext.request.contextPath}/course/preUpdate/"+courseNo;
-	   }
-	   
-	   function $(id){
-	      return document.getElementById(id);
-	   }
-	   
-       function doQuery(pageno,totalPageNum)
-       {
-           var re = /^[0-9]+.?[0-9]*$/;
-           
-           if(!re.test(pageno))
-           {
-              alert("输入的不是数字!");
-              return;
-           }
-           
-           if(pageno<1 || pageno>totalPageNum)
-           {
-              alert("页号超出范围，有效范围：[1-"+totalPageNum+"]!");
-              return;
-           }
-           
-           var f=document.forms[0];
-           f.action=f.action+"/"+pageno;
-           f.submit();
-           
-       }	   
-	
+
+		$(function(){
+
+			$(".delete").click(function(){
+				var href = $(this).attr("href");
+				var courseName=$(this).parent().parent().children("#courseName").attr("title");
+				if(confirm("确定要删除 ["+courseName+"] 课程信息吗?")){
+					$("form:eq(0)").attr("action",href).submit();
+					return false;
+				}
+
+			});
+
+			$(".update").click(function(){
+				var href = $(this).attr("href");
+				location.href(href);
+			});
+
+			$(".linkspan").click(function () {
+
+				var pageNo=${page.pageNo};
+				var totalPageNum=${page.totalPageNum};
+				var re = /^[0-9]+.?[0-9]*$/;
+
+				if(String($(this).attr("id"))==String("one"))
+					pageNo=1;
+
+				if(String($(this).attr("id"))==String("two"))
+					pageNo=pageNo-1;
+
+				if(String($(this).attr("id"))==String("three"))
+					pageNo=pageNo+1;
+
+				if(String($(this).attr("id"))==String("four"))
+					pageNo=totalPageNum;
+
+				if(String($(this).attr("id"))==String("five")) {
+					var num =$.trim($("#pageNo").val()) ;
+
+					if(!re.test(num))
+					{
+						alert("输入的不是数字!");
+						return;
+					}
+					pageNo=parseInt(num);
+					if(pageNo<1 || pageNo>totalPageNum)
+					{
+						alert("页号超出范围，有效范围：[1-"+totalPageNum+"]!");
+						return;
+					}
+
+				}
+
+				var act=String($("form:eq(1)").attr("action"))+"/"+pageNo;
+				$("form:eq(1)").attr("action",act).submit();
+                return false;
+
+			});
+
+		});
+
+
+
 	</script>
 	
   </head>
   
   <body style="padding:8px;">
     <h3 class="title">课程管理</h3>
+
+	<form action="" method="POST">
+		<input type="hidden" name="_method" value="DELETE"/>
+	</form>
+
     <div id="queryArea">
       <form:form action="${pageContext.request.contextPath}/course/list" method="post" modelAttribute="helper">
                       课程名称：<form:input path="qryCourseName" />&nbsp;&nbsp;
@@ -86,7 +101,7 @@
     </div>
     <c:if test="${!empty page.pageContent}">
        <table border="0" cellspacing="0">
-	       <tr>
+	       <tr class="course">
 	        <th>序号</th>
 	        <th>编号</th>
 	        <th>名称</th>
@@ -102,7 +117,7 @@
 	       <tr>
 	         <td nowrap>${idx.index+1}</td>
 	         <td nowrap>${course.courseNo}</td>
-	         <td nowrap style="padding-top:10px;">
+	         <td id="courseName" title="${course.courseName}" nowrap style="padding-top:10px;">
 	            ${course.courseName}<br>
 	            <img width="100" height="50" alt="${course.courseName}的教材" src="<c:url value="/course/getPic/${course.courseNo}"/>">   
 	         </td>
@@ -130,8 +145,8 @@
 	         </td>
 	         <td nowrap>${course.courseMemo}</td>
 	         <td>
-	           <button onclick="updateCourse('${course.courseNo}')">修改</button>
-	           <button onclick="removeCourse('${course.courseNo}','${course.courseName}')">删除</button>
+	           <button class="update" href="${pageContext.request.contextPath}/course/preUpdate/${course.courseNo}">修改</button>
+	           <button class="delete" href="${pageContext.request.contextPath}/course/remove/${course.courseNo}">删除</button>
 	         </td>
 	       </tr>
 	       </c:forEach>
@@ -140,20 +155,20 @@
 	            共${page.totalRecNum}条, 当前显示${page.startIndex+1}-${page.endIndex+1}条, 第${page.pageNo}/${page.totalPageNum}页
 	           |
 	           <c:if test="${page.pageNo>1}">
-	             <span class="linkspan" onclick="doQuery(1,${page.totalPageNum})">首页</span>&nbsp;
+	             <span class="linkspan" id="one">首页</span>&nbsp;
 	           </c:if>
 	           <c:if test="${page.prePage}">
-	             <span class="linkspan" onclick="doQuery(${page.pageNo-1},${page.totalPageNum})">上一页</span>&nbsp;
+	             <span class="linkspan" id="two">上一页</span>&nbsp;
 	           </c:if>
 	           <c:if test="${page.nextPage}">
-	             <span class="linkspan" onclick="doQuery(${page.pageNo+1},${page.totalPageNum})">下一页</span>&nbsp;
+	             <span class="linkspan" id="three">下一页</span>&nbsp;
 	           </c:if>
 	           <c:if test="${page.pageNo!=page.totalPageNum}">
-	             <span class="linkspan" onclick="doQuery(${page.totalPageNum},${page.totalPageNum})">末页</span>&nbsp;
+	             <span class="linkspan" id="four">末页</span>&nbsp;
 	           </c:if>
 	           |
 	            到<input type="text" id="pageNo" size=4 style="text-align:right;" onkeypress="onlynumber();"/> 页
-	           <button onclick="doQuery($('pageNo').value,${page.totalPageNum});"> 跳 转 </button>		           		           	           	              
+	           <button class="linkspan" id="five" style="color:black;text-decoration:none;"> 跳 转 </button>
 	        </div>
     </c:if>
      <c:if test="${empty page.pageContent}">

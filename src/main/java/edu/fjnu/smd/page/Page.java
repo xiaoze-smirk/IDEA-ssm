@@ -77,7 +77,7 @@ public class Page<T> {
 
     /* 页面链接 */
     public String pageLinks(String url) {
-        int endPage = this.totalRecord/pageSize +1;
+        int endPage = totalPage;
 
         StringBuffer sBuf = new StringBuffer();
 
