@@ -38,6 +38,13 @@ public class SecurityController extends BaseController{
         return "login";
     }
 
+    @RequestMapping("/toRegister")
+    public String toRegister(Map<String, Object> map) throws Exception {
+
+        map.put("user", new User());
+        return "register";
+    }
+
     @RequestMapping(value="/login", method=RequestMethod.POST)
     public String login(@Valid User user, Errors result,Map<String, Object> map) throws Exception {
 
@@ -61,6 +68,29 @@ public class SecurityController extends BaseController{
                 System.out.println("啊啊啊啊啊 啊啊啊啊 啊啊啊");
                 return "redirect:/security/mainController";
             }
+        } catch (SMDException e) {
+            map.put("exceptionMessage", e.getMessage());
+        }
+
+        return "login";
+    }
+
+    @RequestMapping(value="/register", method=RequestMethod.POST)
+    public String register(@Valid User user, Errors result,Map<String, Object> map) throws Exception {
+
+        try {
+            User dbUser = userService.get(user.getUserNo());
+            if(result.getErrorCount() > 0||dbUser!=null){
+                System.out.println("出错了!");
+
+                for(FieldError error:result.getFieldErrors()){
+                    System.out.println(error.getField() + ":" + error.getDefaultMessage());
+                }
+
+                return "redirect:/security/toRegister";
+            }
+            userService.addUser(user);
+
         } catch (SMDException e) {
             map.put("exceptionMessage", e.getMessage());
         }

@@ -31,4 +31,11 @@ public class UserServiceJDBCImpl implements UserService {
 
     }
 
+    @Override
+    public void addUser(User user) {
+
+        userDao.addUser(user);
+
+    }
+
 }

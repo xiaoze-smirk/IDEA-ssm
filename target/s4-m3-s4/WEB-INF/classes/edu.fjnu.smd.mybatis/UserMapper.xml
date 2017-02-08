@@ -28,4 +28,13 @@
         where user_no = #{pid}
     </select>
 
+    <!-- 新增 -->
+    <insert id="addUser" parameterType="edu.fjnu.smd.domain.User">
+        insert into tbl_users
+        (<include refid="cols"/>)
+        values
+        (#{userNo},#{userPwd},#{userName})
+
+    </insert>
+
 </mapper>

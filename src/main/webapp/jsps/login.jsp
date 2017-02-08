@@ -45,12 +45,31 @@
       }  
     </style>
 
+	  <script type="text/javascript" src="${pageContext.request.contextPath}/scripts/jquery-3.1.1.min.js"></script>
+	  <script type="text/javascript">
+
+		  $(function(){
+
+			  $("#login").click(function () {
+				  $("form").submit();
+				  return false;
+			  });
+
+			  $("#register").click(function () {
+				  var href="${pageContext.request.contextPath}/security/toRegister";
+				  location.href(href);
+			  });
+
+		  });
+
+	  </script>
+
   </head>
   
   <body>
     <div id="wrapper">
 	    <div id="f_title"><fmt:message key="user.login"/></div>
-	    <form:form action="${pageContext.request.contextPath}/security/login" method="post" modelAttribute="user">
+	    <form:form  action="${pageContext.request.contextPath}/security/login" method="post" modelAttribute="user">
 	        <div class="f_row">
 	          <span>用户编号:</span>
 	          <form:input path="userNo" />
@@ -73,7 +92,8 @@
 		        </div>
 	        </c:if>	
 	        <div class="f_row">
-	          <input type="submit" value=" 登 录 "/>      
+	          <input id="login" type="button" value=" 登 录 "/>
+			  <input id="register" type="button" value=" 注 册 "/>
 	        </div>                        
 	    </form:form>
     </div>

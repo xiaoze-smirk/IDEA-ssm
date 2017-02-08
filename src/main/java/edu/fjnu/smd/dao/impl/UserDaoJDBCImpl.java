@@ -36,4 +36,11 @@ public class UserDaoJDBCImpl extends SqlSessionDaoSupport implements UserDao {
 
     }
 
+    @Override
+    public void addUser(User user) {
+
+        getmapper().addUser(user);
+
+    }
+
 }
