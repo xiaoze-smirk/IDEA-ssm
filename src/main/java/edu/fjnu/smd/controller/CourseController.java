@@ -2,6 +2,7 @@ package edu.fjnu.smd.controller;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.Serializable;
 import java.util.Map;
 
 import javax.servlet.ServletOutputStream;
@@ -167,14 +168,27 @@ public class CourseController extends BaseController {
 
     @ResponseBody
     @RequestMapping(value="/ajaxValidateCourseNo",method=RequestMethod.POST)
-    public String validateCourseNo(@RequestParam(value="courseNo",required=true) String courseNo,Course course){
+    public String validateCourseNo(@RequestParam(value="courseNo",required=true) String courseNo){
 
         if(courseService.loadCourseByNo(courseNo) != null){
             return "1";
         }else{
             return "0";
         }
+
     }
+
+//    测试返回json的方法，这边的method=RequestMethod获取方法要和界面的一样，一定要注意改，还有这个函数类型也要注意改
+//    @ResponseBody
+//    @RequestMapping(value="/ajaxValidateCourseNo",method=RequestMethod.POST)
+//    public Course validateCourseNo(@RequestParam(value="courseNo",required=true) String courseNo){
+//
+//        if(courseService.loadCourseByNo(courseNo) != null){
+//            return courseService.loadCourseByNo(courseNo);
+//        }else{
+//            return null;
+//        }
+//    }
 
     @RequestMapping("/getPic/{courseNo}")
     public String getPic(@PathVariable("courseNo") String courseNo,HttpServletRequest request,HttpServletResponse response) throws Exception{

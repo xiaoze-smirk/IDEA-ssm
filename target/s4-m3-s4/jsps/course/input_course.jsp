@@ -32,16 +32,31 @@
 
                 $.post(url, args, function(data){
                     if(data == "0"){
-                        alert("courseNo 可用!");
                         $("#courseNo").parent().find("#error").remove();
 
                     }else if(data == "1"){
-                        alert("courseNo 不可用!");
                         $("#courseNo").parent().append("<span id='error'><font color='red'>该 courseNo 不可用!</font></span>");
                     }else{
                         alert("网络或程序出错. ");
                     }
-                });
+                },"text");
+
+//                可以用，但记得带两边的网络获取方法要一样，不一样的要改
+//                $.getJSON(url, args, function(data){
+//
+////                  alert(data.courseName);
+//                    alert(data);
+//
+//                });
+
+//                可以用，但记得带两边的网络获取方法要一样，不一样的要改
+//                $.post(url, args, function(data){
+//
+//                    alert(data.courseName);
+////                    alert(data);
+//
+//                },"json");
+
             });
 
         });

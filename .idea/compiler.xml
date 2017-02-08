@@ -25,7 +25,7 @@
         <module name="s4-m3-s4" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.6">
       <module name="s4-m3-s4" target="1.6" />
     </bytecodeTargetLevel>
   </component>
