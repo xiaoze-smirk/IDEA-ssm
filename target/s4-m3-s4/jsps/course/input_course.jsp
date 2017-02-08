@@ -41,7 +41,7 @@
                     }
                 },"text");
 
-//                可以用，但记得带两边的网络获取方法要一样，不一样的要改
+//                可以用，但记得带两边的网络获取方法要一样，不一样的要改,getJSON默认get方法
 //                $.getJSON(url, args, function(data){
 //
 ////                  alert(data.courseName);
