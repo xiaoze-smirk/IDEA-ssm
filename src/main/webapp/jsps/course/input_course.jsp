@@ -11,13 +11,41 @@
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
 	<link rel="stylesheet" type="text/css" href="<c:url value="/css/style.css"/>">
-	
+
+    <script type="text/javascript" src="${pageContext.request.contextPath }/scripts/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript">
-	   
-	     function $(id){
-	        return document.getElementById(id);
-	     }
-	
+
+        $(function(){
+
+            $("#coursetextbookpic").change(function(){
+                var val=$(this).val();
+                $("#textbookPic").attr("src",val);
+            });
+
+            $("#courseNo").change(function(){
+                var val = $(this).val();
+                val = $.trim(val);
+                $(this).val(val);
+
+                var url = "${pageContext.request.contextPath }/course/ajaxValidateCourseNo";
+                var args = {"courseNo":val,"date":new Date()};
+
+                $.post(url, args, function(data){
+                    if(data == "0"){
+                        alert("courseNo 可用!");
+                        $("#courseNo").parent().find("#error").remove();
+
+                    }else if(data == "1"){
+                        alert("courseNo 不可用!");
+                        $("#courseNo").parent().append("<span id='error'><font color='red'>该 courseNo 不可用!</font></span>");
+                    }else{
+                        alert("网络或程序出错. ");
+                    }
+                });
+            });
+
+        });
+
 	</script>
 		
   </head>
@@ -31,8 +59,8 @@
          style="float:right" src='<c:url value="/pics/default.jpg"/>'><br/>
     <form:form action="${pageContext.request.contextPath}/course/create" method="post"  enctype="multipart/form-data" modelAttribute="course">
        <div>
-         <span>课程编号:</span> 
-         <form:input path="courseNo"/>
+         <span>课程编号:</span>
+         <form:input id="courseNo" path="courseNo"/>
        </div>
        <div>
          <span>课程名称:</span> 
@@ -40,8 +68,7 @@
        </div>
        <div>
          <span>教材封面:</span> 
-         <input type="file" name="coursetextbookpic" size="40"
-                onchange="$('textbookPic').src=this.value"/>
+         <input id="coursetextbookpic" type="file" name="coursetextbookpic" size="40" />
        </div>
        <div>
          <span>课程课时:</span> 

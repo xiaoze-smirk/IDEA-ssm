@@ -8,13 +8,10 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import edu.fjnu.smd.domain.CourseType;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 import edu.fjnu.smd.domain.Course;
 import edu.fjnu.smd.exception.DataAccessException;
@@ -166,6 +163,17 @@ public class CourseController extends BaseController {
 
         return "redirect:/course/list";
 
+    }
+
+    @ResponseBody
+    @RequestMapping(value="/ajaxValidateCourseNo",method=RequestMethod.POST)
+    public String validateCourseNo(@RequestParam(value="courseNo",required=true) String courseNo,Course course){
+
+        if(courseService.loadCourseByNo(courseNo) != null){
+            return "1";
+        }else{
+            return "0";
+        }
     }
 
     @RequestMapping("/getPic/{courseNo}")

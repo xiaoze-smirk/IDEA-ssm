@@ -10,7 +10,9 @@
 	<meta http-equiv="expires" content="0">    
 	<meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 	<meta http-equiv="description" content="This is my page">
-	<link rel="stylesheet" type="text/css" href="<c:url value="/css/style.css"/>">	
+	<link rel="stylesheet" type="text/css" href="<c:url value="/css/style.css"/>">
+
+
   </head>
   
   <body style="padding:8px;">

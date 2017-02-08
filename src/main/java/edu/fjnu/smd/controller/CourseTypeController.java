@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import edu.fjnu.smd.domain.CourseType;
 import edu.fjnu.smd.service.CourseTypeService;
 import edu.fjnu.smd.page.Page;
@@ -97,6 +98,8 @@ public class CourseTypeController extends BaseController {
 
         return "redirect:/courseType/list";
     }
+
+
 
 }
 
