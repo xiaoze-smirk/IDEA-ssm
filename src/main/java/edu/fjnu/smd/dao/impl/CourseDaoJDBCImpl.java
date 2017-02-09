@@ -121,10 +121,14 @@ public class CourseDaoJDBCImpl extends SqlSessionDaoSupport implements CourseDao
     @Override
     public Course loadCourseByNo(String courseNo) {
 
-        Course course = getmapper().loadCourseByNo(courseNo);
-
-        course.setCourseReqs(course.getReqs().split("\\|"));
-        return course;
+        Course course=new Course();
+        course = getmapper().loadCourseByNo(courseNo);
+        if(course!=null) {
+            course.setCourseReqs(course.getReqs().split("\\|"));
+            return course;
+        }
+        else
+            return null;
 
     }
 

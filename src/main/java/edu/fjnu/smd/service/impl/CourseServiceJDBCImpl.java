@@ -49,23 +49,7 @@ public class CourseServiceJDBCImpl implements CourseService {
     @Override
     public Course loadCourseByNo(String courseNo) {
 
-        List<Course> courseList=new ArrayList<Course>();
-        int num=0;
-        int t=1;
-
-        num=courseDao.cntCoursesByHelper(new CourseQueryHelper());
-        if(num!=0){
-            courseList=courseDao.loadAll();
-            for(Course course:courseList){
-                if(courseNo.equals(course.getCourseNo()))
-                    t=2;
-            }
-        }
-        if(t!=2)
-            return null;
-
         return courseDao.loadCourseByNo(courseNo);
-
 
     }
 
