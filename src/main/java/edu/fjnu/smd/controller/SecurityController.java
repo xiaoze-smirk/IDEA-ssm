@@ -15,7 +15,7 @@ import edu.fjnu.smd.domain.User;
 import edu.fjnu.smd.exception.SMDException;
 import edu.fjnu.smd.service.UserService;
 
-/**
+/**小泽
  * Created by xiaozemaliya on 2017/1/31.
  */
 @Controller
