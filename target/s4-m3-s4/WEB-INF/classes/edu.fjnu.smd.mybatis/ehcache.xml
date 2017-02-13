@@ -28,4 +28,5 @@
            timeToIdleSeconds="0"
            timeToLiveSeconds="600"
            memoryStoreEvictionPolicy="LFU" />
+
 </ehcache>

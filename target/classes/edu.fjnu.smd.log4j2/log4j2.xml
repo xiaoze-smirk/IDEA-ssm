@@ -50,7 +50,7 @@
     <loggers>
 
         <logger name="org.mybatis.spring" level="info"/>
-
+        <logger name="org.apache.shiro" level="info"/>
         <logger name="net.sf.ehcache" level="info"/>
 
         <!--共有8个级别，按照从低到高为：all < trace < debug < info < warn < error < fatal < off-->

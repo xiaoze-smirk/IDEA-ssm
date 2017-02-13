@@ -10,7 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
-
+import org.apache.shiro.SecurityUtils;
+import org.apache.shiro.authc.AuthenticationException;
+import org.apache.shiro.authc.UsernamePasswordToken;
+import org.apache.shiro.subject.Subject;
 import edu.fjnu.smd.domain.User;
 import edu.fjnu.smd.exception.SMDException;
 import edu.fjnu.smd.service.UserService;
@@ -48,31 +51,37 @@ public class SecurityController extends BaseController{
     @RequestMapping(value="/login", method=RequestMethod.POST)
     public String login(@Valid User user, Errors result,Map<String, Object> map) throws Exception {
 
-        try {
-            User dbUser = userService.get(user.getUserNo());
-            if(result.getErrorCount() > 0){
-                System.out.println("出错了!");
+        Subject currentUser = SecurityUtils.getSubject();
 
-                for(FieldError error:result.getFieldErrors()){
-                    System.out.println(error.getField() + ":" + error.getDefaultMessage());
-                }
+        System.out.println(user.getUserNo()+"    "+user.getUserPwd());
+        if(result.getErrorCount() > 0){
+            System.out.println("出错了!");
 
-            }else if (dbUser==null){
-                map.put("userError", "用户不存在，请检查!");
+            for(FieldError error:result.getFieldErrors()){
+                System.out.println(error.getField() + ":" + error.getDefaultMessage());
             }
-            else if (!(dbUser.getUserPwd().equals(user.getUserPwd()))) {
-                map.put("userPwdError", "用户密码不正确，请检查!");
-            }else {
+
+            return "login";
+
+        }else if (!currentUser.isAuthenticated()) {
+            // 把用户名和密码封装为 UsernamePasswordToken 对象
+            UsernamePasswordToken token = new UsernamePasswordToken(user.getUserNo(), user.getUserPwd());
+
+            try {
+                // 执行登录.
+                currentUser.login(token);
+                User dbUser = userService.get(user.getUserNo());
                 map.put("loginedUser", dbUser);
-
-                System.out.println("啊啊啊啊啊 啊啊啊啊 啊啊啊");
-                return "redirect:/security/mainController";
             }
-        } catch (SMDException e) {
-            map.put("exceptionMessage", e.getMessage());
+            // ... catch more exceptions here (maybe custom ones specific to your application?
+            // 所有认证时异常的父类.
+            catch (AuthenticationException e) {
+                //unexpected condition?  error?
+                System.out.println("登录失败: " + e.getMessage());
+            }
         }
 
-        return "login";
+        return "redirect:/security/mainController";
     }
 
     @RequestMapping(value="/register", method=RequestMethod.POST)
