@@ -122,13 +122,13 @@ public class CourseDaoJDBCImpl extends SqlSessionDaoSupport implements CourseDao
     public Course loadCourseByNo(String courseNo) {
 
         Course course=new Course();
-        course = getmapper().loadCourseByNo(courseNo);
+        course=null;
+        if(courseNo!=null)
+            course = getmapper().loadCourseByNo(courseNo);
         if(course!=null) {
             course.setCourseReqs(course.getReqs().split("\\|"));
-            return course;
         }
-        else
-            return null;
+        return course;
 
     }
 

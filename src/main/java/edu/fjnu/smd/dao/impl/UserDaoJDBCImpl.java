@@ -30,8 +30,8 @@ public class UserDaoJDBCImpl extends SqlSessionDaoSupport implements UserDao {
 
     @Override
     public User get(String userNo) {
-
-        User user = getmapper().get(userNo);
+        User user =new User();
+        user = getmapper().get(userNo);
         return user;
 
     }

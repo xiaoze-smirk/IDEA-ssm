@@ -44,11 +44,11 @@ public class CourseController extends BaseController {
 
     @ModelAttribute
     public void getCourse(@RequestParam(value="courseNo",required=false) String courseNo,
-                          Map<String, Object> map){
-        if(courseNo != null&&courseService.loadCourseByNo(courseNo)!= null){
-            map.put("course", courseService.loadCourseByNo(courseNo));
-            if(courseService.loadCourseByNo(courseNo).getCourseTextbookPic()!=null)
-                System.out.println("开始要有了了了有图片啊 啊    啊啊 啊啊 啊啊 啊啊啊 ");
+                          Map<String, Object> map,Course course){
+
+        course=courseService.loadCourseByNo(courseNo);
+        if(courseNo != null&&course!= null){
+            map.put("course", course);
         }
     }
 
