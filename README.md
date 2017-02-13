@@ -20,7 +20,7 @@
 
 本项目一开始进入登录界面，只有输入正确的密码，才能进入主界面；进入主界面后可以对课程，以及课程类型进行增删改查工作；所有的数据最终都是保存到Oracle里面。
 
-### 1. 项目流程具体的Todo列表[^code]
+### 1. 项目流程具体的Todo列表
 
 - [ ] 登录账号、密码
 - [ ] 课程类型的增删改查
@@ -31,7 +31,7 @@
 - [x] 新增 mybatis拦截器
 - [x] 新增 shiro 框架
 
-### 2. Java某些代码展示[^code]
+### 2. Java某些代码展示
 
 ```java
 @ModelAttribute
@@ -43,29 +43,27 @@
     }
 ```
 
-### 3. 项目流程图[^code]
+### 3. 项目流程图
 
 ```flow
-st=>start: Start
-op=>operation: loging
+st=>start: Start:>https://www.zybuluo.com
+io=>inputoutput: verification
+op=>operation: Your Operation
 cond=>condition: Yes or No?
+sub=>subroutine: Your Subroutine
 e=>end
-io=>inputoutput: mainPage
 
-st->op->cond
-cond(yes)->io->e
-cond(no)->op
+st->io->op->cond
+cond(yes)->e
+cond(no)->sub->io
 ```
 
 ------
 
 由于时间限制，以后会继续更改的！
 
-小泽 [@xiaoze][3]     
-2016 年 07月 07日    
-
-
-[^code]: 代码高亮功能支持包括 Java, Python, JavaScript 在内的，**四十一**种主流编程语言。
+小泽 [@xiaoze][3]
+2016 年 07月 07日
 
 [3]: http://weibo.com/3477691612/profile?topnav=1&wvr=6&is_all=1
 
