@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c69a8de-4433-4e79-be46-2d14cdd568b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
     </list>
     <ignored path="s4-m3-s4.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -200,18 +199,18 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\webapp" />
+      <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\webapp\jsps" />
+      <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\resources\edu.fjnu.smd.mybatis" />
+      <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4" />
       <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\java\edu\fjnu\smd\shiro\realms" />
       <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\webapp\jsps" />
       <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\webapp\scripts" />
       <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\resources\edu.fjnu.smd.mybatis" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\webapp" />
-      <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\webapp\jsps" />
-      <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\resources\edu.fjnu.smd.mybatis" />
-      <recent name="E:\IDEA\s4-m3-s4\s4-m3-s4\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat8">
@@ -844,12 +843,12 @@
       <workItem from="1486961656042" duration="21784000" />
       <workItem from="1486991656202" duration="743000" />
       <workItem from="1486992426199" duration="1360000" />
-      <workItem from="1486995251447" duration="119000" />
+      <workItem from="1486995251447" duration="457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163407000" />
+    <option name="totallyTimeSpent" value="163745000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1284,7 +1283,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
-          <caret line="58" column="3" selection-start-line="58" selection-start-column="3" selection-end-line="58" selection-end-column="3" />
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
           <folding />
         </state>
       </provider>

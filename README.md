@@ -46,24 +46,23 @@
 ### 3. 项目流程图
 
 ```flow
-st=>start: Start:>https://www.zybuluo.com
-io=>inputoutput: verification
-op=>operation: Your Operation
+st=>start: Start
+op=>operation: loging
 cond=>condition: Yes or No?
-sub=>subroutine: Your Subroutine
 e=>end
+io=>inputoutput: mainPage
 
-st->io->op->cond
-cond(yes)->e
-cond(no)->sub->io
+st->op->cond
+cond(yes)->io->e
+cond(no)->op
 ```
 
 ------
 
 由于时间限制，以后会继续更改的！
 
-小泽 [@xiaoze][3]
-2016 年 07月 07日
+小泽 [@xiaoze][3]     
+2016 年 07月 07日    
 
 [3]: http://weibo.com/3477691612/profile?topnav=1&wvr=6&is_all=1
 
